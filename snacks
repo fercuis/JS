@@ -1,0 +1,6 @@
+let edad = parseInt(prompt("Dime tu edad"))
+let snacks = prompt("Cual es tu snack favorito?")
+let edadMax = parseInt(prompt("Hasta que edad piensas comer" + " " +  snacks + "?"))
+let comer = prompt("Cuantos " + snacks + " comerias cada dia?")
+let snacksRemain = parseInt((edadMax - edad) * 365 * comer);
+alert("Necesitaras " + snacksRemain + " " + snacks + " para que te alcancen hasta los " + edadMax + " años.");

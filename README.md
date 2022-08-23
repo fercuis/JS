@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @fercuis
 - 👀 I’m interested in Testing APIs, QA Automation, SQL.
-- 🌱 I’m currently learning SQL
+- 🌱 I’m currently learning JavaScript
 - 💞️ I’m looking to collaborate on testing APIs. 
 - 📫 How to reach me fernando.j.masci@gmail.com
 

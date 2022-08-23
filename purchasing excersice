@@ -1,6 +1,6 @@
-//Dev a program which calculate how much must the user pay to end the purchase.
-//The program must must request the price input for the product and the quantity.
-//Use Template Literals and strings interpolation to make the math operation//
+/* Dev a program which calculate how much must the user pay to end the purchase.
+The program must must request the price input for the product and the quantity.
+Use Template Literals and strings interpolation to make the math operation */ 
 
 let price = 20
 var item = prompt("Welcome! Let me help you. What do you want to buy?");

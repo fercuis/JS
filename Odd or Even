@@ -1,2 +1,14 @@
 var number = prompt("Escoge un numero")
 if (number % 2 == 0) { alert("El numero es par")} else {alert("El numero es impar")};
+
+let edad=prompt("Ingrese su edad.")
+if(edad<0) {
+alert("Error, su edad no es válida.")
+} 
+else if(edad==21){
+alert("Congrats, ya sos mayor de edad!")
+} 
+else if (edad % 2 == 0) {}
+else{
+alert("¿Sabías que tu edad es impar?")
+};

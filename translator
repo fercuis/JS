@@ -1,0 +1,20 @@
+var traduccion = prompt("Ingrese una palabra.")
+switch(traduccion) {
+    case "casa" :
+        alert("house")
+    break
+    case "perro" :
+        alert("dog")
+    break
+    case "pelota" :
+        alert("ball")
+    break
+    case "árbol" :
+        alert("tree")
+    break
+    case "genio" :
+        alert("genius")
+    break
+    default :
+        alert("La palabra ingresada es incorrecta. Intenuevamente con casa, perro, pelota, árbol o genio.")
+}

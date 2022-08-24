@@ -1,0 +1,15 @@
+var numeroSecreto = 56
+var adivina = prompt("Adivina un numero")
+if (adivina == numeroSecreto) {
+    alert("Has acertado!")
+}
+else if (adivina > numeroSecreto) {
+    alert("Has dicho un numero mayor")
+}
+else if (adivina < numeroSecreto) {
+    alert("Has dicho un numero menor")
+}
+else
+{
+    alert("Fallaste!")
+};

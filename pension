@@ -1,0 +1,10 @@
+var edad = parseInt(prompt("Ingrese su edad."));
+var sexo = prompt("Indique si es hombre o mujer.").toLowerCase();
+if (sexo == "mujer") { 
+    (edad >= 60) 
+    ? alert("Felicitaciones, usted podrá jubilarse!") 
+    : alert("Aún no puede jubilarse, lo lamento.")};
+if (sexo == "hombre") { 
+    (edad >= 65) 
+    ? alert("Felicitaciones, usted podrá jubilarse!") 
+    : alert("Aún no puede jubilarse, lo lamento.")};

@@ -1,0 +1,24 @@
+let minuto = 5
+let minutero = 1
+let segundo = 60
+let segundero = 1
+
+while(minutero <= minuto) {
+    while(segundero <= segundo) {
+        if((minutero == 1) && (segundero == 1)) {
+        console.log("Han transcurrido " + minutero + " minuto" + ", " + segundero + " segundo.")
+        }
+        else if((minutero == 1) && (segundo > 1)) {
+        console.log("Han transcurrido " + minutero + " minuto" + ", " + segundero + " segundos.")
+        }
+        else if((minutero > 1) && (segundero ==1)) {
+        console.log("Han transcurrido " + minutero + " minutos" + ", " + segundero + " segundo.")
+        }   
+        else if((minutero > 1) && (segundero > 1)) {
+        console.log("Han transcurrido " + minutero + " minutos" + ", " + segundero + " segundos.")
+        }
+        segundero++
+        }
+    segundero = 1
+    minutero++
+};

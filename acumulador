@@ -1,0 +1,8 @@
+let numUser = parseInt(prompt("Escoge un numero"))
+let base = 1
+let ac = 1
+while (base <= numUser) {
+    ac *= base 
+    base++    
+}
+console.log(ac);
